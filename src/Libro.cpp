@@ -215,7 +215,7 @@ void Libro::listar(){
     for(int i = 0; i < cantidad; i++){
         Libro libro = leer(i);
 
-        ///if(libro.getEstado())
+        if(libro.getEstado())
         {
             Fecha f = libro.getAnioPublicacion();
 
